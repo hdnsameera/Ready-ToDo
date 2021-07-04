@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7209C0E925BA9D5000144461 /* ToDoNewUpdTextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7209C0E825BA9D5000144461 /* ToDoNewUpdTextExtension.swift */; };
+		720F22BC25DEDA0A00A46044 /* UpgradeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F22BB25DEDA0A00A46044 /* UpgradeDetailsView.swift */; };
+		7211C77025FE656C00E4EBB6 /* FullVersionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7211C76F25FE656C00E4EBB6 /* FullVersionRow.swift */; };
+		7219B96125C061490016337E /* ToDoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219B96025C061490016337E /* ToDoLists.swift */; };
+		721E62CD25B953CA00B0324E /* SortMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721E62CC25B953CA00B0324E /* SortMain.swift */; };
+		721E62D025B95E2F00B0324E /* ToDoMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721E62CF25B95E2F00B0324E /* ToDoMaster.swift */; };
+		7224EB5B25CD9276001E54DA /* AppNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7224EB5A25CD9276001E54DA /* AppNotification.swift */; };
+		7242168625BCAFF300F51CB6 /* SettingsNavigationLinkLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7242168525BCAFF300F51CB6 /* SettingsNavigationLinkLabel.swift */; };
+		7247693625CF260400BC8C20 /* LargeBannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7247693525CF260400BC8C20 /* LargeBannerAd.swift */; };
+		724C2E5625DAF6C100E6C5C1 /* UpgradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724C2E5525DAF6C100E6C5C1 /* UpgradeView.swift */; };
+		7252874C25BD7CB000A1729E /* ToDoNewUpdCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7252874B25BD7CB000A1729E /* ToDoNewUpdCustomTextField.swift */; };
+		7262E20625CE83F900925F5D /* setReminder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7262E20525CE83F900925F5D /* setReminder.mp3 */; };
+		72789CA825B6E68000C8334D /* ToDoNewUpd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789CA725B6E68000C8334D /* ToDoNewUpd.swift */; };
+		7282336225C53B95002E4F75 /* RecordingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7282336125C53B95002E4F75 /* RecordingList.swift */; };
+		7282336625C53FD6002E4F75 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7282336525C53FD6002E4F75 /* Extensions.swift */; };
+		7282336925C540CE002E4F75 /* RecordingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7282336825C540CE002E4F75 /* RecordingDataModel.swift */; };
+		7282336C25C5427B002E4F75 /* RecorderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7282336B25C5427B002E4F75 /* RecorderHelper.swift */; };
+		7282337225C547CB002E4F75 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7282337125C547CB002E4F75 /* AudioPlayer.swift */; };
+		7282337725C55597002E4F75 /* MediaButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7282337625C55597002E4F75 /* MediaButtons.swift */; };
+		72B9644A25B6187A0094B35D /* ToDoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9644925B6187A0094B35D /* ToDoRow.swift */; };
+		72BB6E9025C498AE00ABF30D /* VoiceRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB6E8F25C498AE00ABF30D /* VoiceRecorderView.swift */; };
+		72BB6E9625C4AAA000ABF30D /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB6E9525C4AAA000ABF30D /* AudioRecorder.swift */; };
+		72BC052225FC907700313EDD /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BC052125FC907700313EDD /* Constant.swift */; };
+		72BC053C25FCE32F00313EDD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BC053B25FCE32F00313EDD /* StoreKit.framework */; };
+		72BC053E25FCE37200313EDD /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BC053D25FCE37200313EDD /* StoreManager.swift */; };
+		72D54A0A25B5FC3B00F5B717 /* My_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D54A0925B5FC3B00F5B717 /* My_ListApp.swift */; };
+		72D54A0C25B5FC3B00F5B717 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D54A0B25B5FC3B00F5B717 /* ToDo.swift */; };
+		72D54A0E25B5FC3D00F5B717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D54A0D25B5FC3D00F5B717 /* Assets.xcassets */; };
+		72D54A1125B5FC3D00F5B717 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D54A1025B5FC3D00F5B717 /* Preview Assets.xcassets */; };
+		72D54A1325B5FC3D00F5B717 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D54A1225B5FC3D00F5B717 /* Persistence.swift */; };
+		72D54A1625B5FC3E00F5B717 /* My_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72D54A1425B5FC3E00F5B717 /* My_List.xcdatamodeld */; };
+		72D54A3125B5FEC200F5B717 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D54A3025B5FEC200F5B717 /* Helper.swift */; };
+		72D54A3B25B5FFA300F5B717 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D54A3A25B5FFA300F5B717 /* SettingsView.swift */; };
+		72D54A3E25B5FFB600F5B717 /* SettingsLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D54A3D25B5FFB600F5B717 /* SettingsLabel.swift */; };
+		72D54A4125B5FFC900F5B717 /* SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D54A4025B5FFC900F5B717 /* SettingsRow.swift */; };
+		72D54A4425B5FFE400F5B717 /* SettingsToggleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D54A4325B5FFE400F5B717 /* SettingsToggleRow.swift */; };
+		72D54A4925B6021000F5B717 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D54A4825B6021000F5B717 /* OnBoardingView.swift */; };
+		72D54A4C25B6022E00F5B717 /* OnboardingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D54A4B25B6022E00F5B717 /* OnboardingCard.swift */; };
+		72D54A5525B60DD500F5B717 /* playSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D54A5425B60DD500F5B717 /* playSound.swift */; };
+		72E097D425C1DA9500A2237F /* IconButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E097D325C1DA9500A2237F /* IconButtonView.swift */; };
+		72E2427025BA0B5B00767532 /* SortButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E2426F25BA0B5B00767532 /* SortButton.swift */; };
+		72E5C20525BF4933006653CF /* SettingsColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E5C20425BF4933006653CF /* SettingsColors.swift */; };
+		72EC2E6625BD4118002F7569 /* ButtonClickOn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72EC2E6525BD4118002F7569 /* ButtonClickOn.mp3 */; };
+		72EC2E6925BD411D002F7569 /* ButtonClickOff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72EC2E6825BD411D002F7569 /* ButtonClickOff.mp3 */; };
+		72EC2E6D25BD4207002F7569 /* SwooshAppear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72EC2E6C25BD4207002F7569 /* SwooshAppear.mp3 */; };
+		72EC2E7125BD4489002F7569 /* SwooshDisappear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72EC2E7025BD4489002F7569 /* SwooshDisappear.mp3 */; };
+		72EFBE4C25CFAE63004BA6D9 /* BannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EFBE4B25CFAE63004BA6D9 /* BannerAd.swift */; };
+		72F869A625CACF200063C7FD /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F869A525CACF200063C7FD /* SplashView.swift */; };
+		C70D85E8037C5873D58C715D /* Pods_Ready_ToDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2F1C688309EE87AE3D62D2 /* Pods_Ready_ToDo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B111AD719798755AE8CBB47 /* Pods-Ready ToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ready ToDo.release.xcconfig"; path = "Target Support Files/Pods-Ready ToDo/Pods-Ready ToDo.release.xcconfig"; sourceTree = "<group>"; };
+		7209C0E825BA9D5000144461 /* ToDoNewUpdTextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoNewUpdTextExtension.swift; sourceTree = "<group>"; };
+		720F22BB25DEDA0A00A46044 /* UpgradeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeDetailsView.swift; sourceTree = "<group>"; };
+		7211C76F25FE656C00E4EBB6 /* FullVersionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullVersionRow.swift; sourceTree = "<group>"; };
+		7219B96025C061490016337E /* ToDoLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoLists.swift; sourceTree = "<group>"; };
+		721E62CC25B953CA00B0324E /* SortMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortMain.swift; sourceTree = "<group>"; };
+		721E62CF25B95E2F00B0324E /* ToDoMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoMaster.swift; sourceTree = "<group>"; };
+		7224EB5A25CD9276001E54DA /* AppNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotification.swift; sourceTree = "<group>"; };
+		7242168525BCAFF300F51CB6 /* SettingsNavigationLinkLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsNavigationLinkLabel.swift; sourceTree = "<group>"; };
+		7247693525CF260400BC8C20 /* LargeBannerAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeBannerAd.swift; sourceTree = "<group>"; };
+		724C2E5525DAF6C100E6C5C1 /* UpgradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeView.swift; sourceTree = "<group>"; };
+		7252874B25BD7CB000A1729E /* ToDoNewUpdCustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoNewUpdCustomTextField.swift; sourceTree = "<group>"; };
+		7262E20525CE83F900925F5D /* setReminder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = setReminder.mp3; sourceTree = "<group>"; };
+		72789CA725B6E68000C8334D /* ToDoNewUpd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoNewUpd.swift; sourceTree = "<group>"; };
+		7282336125C53B95002E4F75 /* RecordingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingList.swift; sourceTree = "<group>"; };
+		7282336525C53FD6002E4F75 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7282336825C540CE002E4F75 /* RecordingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDataModel.swift; sourceTree = "<group>"; };
+		7282336B25C5427B002E4F75 /* RecorderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderHelper.swift; sourceTree = "<group>"; };
+		7282337125C547CB002E4F75 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		7282337625C55597002E4F75 /* MediaButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaButtons.swift; sourceTree = "<group>"; };
+		72B9644925B6187A0094B35D /* ToDoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRow.swift; sourceTree = "<group>"; };
+		72BB6E8F25C498AE00ABF30D /* VoiceRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorderView.swift; sourceTree = "<group>"; };
+		72BB6E9525C4AAA000ABF30D /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		72BC052125FC907700313EDD /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		72BC053B25FCE32F00313EDD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		72BC053D25FCE37200313EDD /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		72D54A0625B5FC3B00F5B717 /* Ready ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ready ToDo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D54A0925B5FC3B00F5B717 /* My_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_ListApp.swift; sourceTree = "<group>"; };
+		72D54A0B25B5FC3B00F5B717 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		72D54A0D25B5FC3D00F5B717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72D54A1025B5FC3D00F5B717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72D54A1225B5FC3D00F5B717 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		72D54A1525B5FC3E00F5B717 /* My_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_List.xcdatamodel; sourceTree = "<group>"; };
+		72D54A1725B5FC3E00F5B717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D54A3025B5FEC200F5B717 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		72D54A3A25B5FFA300F5B717 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		72D54A3D25B5FFB600F5B717 /* SettingsLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabel.swift; sourceTree = "<group>"; };
+		72D54A4025B5FFC900F5B717 /* SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRow.swift; sourceTree = "<group>"; };
+		72D54A4325B5FFE400F5B717 /* SettingsToggleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsToggleRow.swift; sourceTree = "<group>"; };
+		72D54A4825B6021000F5B717 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		72D54A4B25B6022E00F5B717 /* OnboardingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCard.swift; sourceTree = "<group>"; };
+		72D54A5425B60DD500F5B717 /* playSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playSound.swift; sourceTree = "<group>"; };
+		72E097D325C1DA9500A2237F /* IconButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButtonView.swift; sourceTree = "<group>"; };
+		72E2426F25BA0B5B00767532 /* SortButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortButton.swift; sourceTree = "<group>"; };
+		72E5C20425BF4933006653CF /* SettingsColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsColors.swift; sourceTree = "<group>"; };
+		72E976D325CF0395000F26DE /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		72EC2E6525BD4118002F7569 /* ButtonClickOn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ButtonClickOn.mp3; sourceTree = "<group>"; };
+		72EC2E6825BD411D002F7569 /* ButtonClickOff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ButtonClickOff.mp3; sourceTree = "<group>"; };
+		72EC2E6C25BD4207002F7569 /* SwooshAppear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SwooshAppear.mp3; sourceTree = "<group>"; };
+		72EC2E7025BD4489002F7569 /* SwooshDisappear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SwooshDisappear.mp3; sourceTree = "<group>"; };
+		72EFBE4B25CFAE63004BA6D9 /* BannerAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAd.swift; sourceTree = "<group>"; };
+		72F869A525CACF200063C7FD /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		8B2F1C688309EE87AE3D62D2 /* Pods_Ready_ToDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ready_ToDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A3A9D1924C4330E748D37C /* Pods-Ready ToDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ready ToDo.debug.xcconfig"; path = "Target Support Files/Pods-Ready ToDo/Pods-Ready ToDo.debug.xcconfig"; sourceTree = "<group>"; };
+		ED9BAE4C75E26E53BEA88497 /* Pods-Ready ToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ready ToDo.release.xcconfig"; path = "Target Support Files/Pods-Ready ToDo/Pods-Ready ToDo.release.xcconfig"; sourceTree = "<group>"; };
+		F5339BC7E674ADF4E85A60E2 /* Pods-Ready ToDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ready ToDo.debug.xcconfig"; path = "Target Support Files/Pods-Ready ToDo/Pods-Ready ToDo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72D54A0325B5FC3B00F5B717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BC053C25FCE32F00313EDD /* StoreKit.framework in Frameworks */,
+				C70D85E8037C5873D58C715D /* Pods_Ready_ToDo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23405CF7CAD2F2EC55D26623 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72BC053B25FCE32F00313EDD /* StoreKit.framework */,
+				8B2F1C688309EE87AE3D62D2 /* Pods_Ready_ToDo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C2919A54DD1E1571351E217 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5339BC7E674ADF4E85A60E2 /* Pods-Ready ToDo.debug.xcconfig */,
+				ED9BAE4C75E26E53BEA88497 /* Pods-Ready ToDo.release.xcconfig */,
+				A8A3A9D1924C4330E748D37C /* Pods-Ready ToDo.debug.xcconfig */,
+				0B111AD719798755AE8CBB47 /* Pods-Ready ToDo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7247693425CF25F400BC8C20 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				7247693525CF260400BC8C20 /* LargeBannerAd.swift */,
+				72EFBE4B25CFAE63004BA6D9 /* BannerAd.swift */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+		7282336025C53B27002E4F75 /* Voice Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				72BB6E8F25C498AE00ABF30D /* VoiceRecorderView.swift */,
+				72BB6E9525C4AAA000ABF30D /* AudioRecorder.swift */,
+				7282336125C53B95002E4F75 /* RecordingList.swift */,
+				7282336825C540CE002E4F75 /* RecordingDataModel.swift */,
+				7282336B25C5427B002E4F75 /* RecorderHelper.swift */,
+				7282337125C547CB002E4F75 /* AudioPlayer.swift */,
+			);
+			path = "Voice Recorder";
+			sourceTree = "<group>";
+		};
+		72BC052F25FCB30D00313EDD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7282336525C53FD6002E4F75 /* Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		72D549FD25B5FC3B00F5B717 = {
+			isa = PBXGroup;
+			children = (
+				72EC2E6825BD411D002F7569 /* ButtonClickOff.mp3 */,
+				72EC2E6525BD4118002F7569 /* ButtonClickOn.mp3 */,
+				7262E20525CE83F900925F5D /* setReminder.mp3 */,
+				72EC2E6C25BD4207002F7569 /* SwooshAppear.mp3 */,
+				72EC2E7025BD4489002F7569 /* SwooshDisappear.mp3 */,
+				72D54A0825B5FC3B00F5B717 /* Ready ToDo */,
+				72D54A0725B5FC3B00F5B717 /* Products */,
+				5C2919A54DD1E1571351E217 /* Pods */,
+				23405CF7CAD2F2EC55D26623 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72D54A0725B5FC3B00F5B717 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72D54A0625B5FC3B00F5B717 /* Ready ToDo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72D54A0825B5FC3B00F5B717 /* Ready ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				72D54A1225B5FC3D00F5B717 /* Persistence.swift */,
+				72D54A1425B5FC3E00F5B717 /* My_List.xcdatamodeld */,
+				72D54A1E25B5FC8700F5B717 /* App */,
+				72D54A2025B5FD3300F5B717 /* Views */,
+				72D54A2F25B5FEB300F5B717 /* Utility */,
+				72BC052F25FCB30D00313EDD /* Extension */,
+				7247693425CF25F400BC8C20 /* AdMob */,
+				72D54A0F25B5FC3D00F5B717 /* Preview Content */,
+			);
+			path = "Ready ToDo";
+			sourceTree = "<group>";
+		};
+		72D54A0F25B5FC3D00F5B717 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				72D54A1025B5FC3D00F5B717 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72D54A1E25B5FC8700F5B717 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				72D54A0925B5FC3B00F5B717 /* My_ListApp.swift */,
+				72E976D325CF0395000F26DE /* Configuration.storekit */,
+				72D54A0D25B5FC3D00F5B717 /* Assets.xcassets */,
+				72D54A1725B5FC3E00F5B717 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		72D54A2025B5FD3300F5B717 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72D54A2125B5FD4200F5B717 /* OnBoarding */,
+				72D54A2525B5FD7200F5B717 /* ToDo */,
+				7282336025C53B27002E4F75 /* Voice Recorder */,
+				72D54A2225B5FD4800F5B717 /* Settings */,
+				72FEC20E25DD5A010096C7D9 /* Upgrade */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72D54A2125B5FD4200F5B717 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				72D54A4825B6021000F5B717 /* OnBoardingView.swift */,
+				72D54A4B25B6022E00F5B717 /* OnboardingCard.swift */,
+				72F869A525CACF200063C7FD /* SplashView.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		72D54A2225B5FD4800F5B717 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				72D54A3A25B5FFA300F5B717 /* SettingsView.swift */,
+				72D54A3D25B5FFB600F5B717 /* SettingsLabel.swift */,
+				72D54A4025B5FFC900F5B717 /* SettingsRow.swift */,
+				72D54A4325B5FFE400F5B717 /* SettingsToggleRow.swift */,
+				7242168525BCAFF300F51CB6 /* SettingsNavigationLinkLabel.swift */,
+				72E5C20425BF4933006653CF /* SettingsColors.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		72D54A2525B5FD7200F5B717 /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				721E62CF25B95E2F00B0324E /* ToDoMaster.swift */,
+				72D54A0B25B5FC3B00F5B717 /* ToDo.swift */,
+				72B9644925B6187A0094B35D /* ToDoRow.swift */,
+				72789CA725B6E68000C8334D /* ToDoNewUpd.swift */,
+				7252874B25BD7CB000A1729E /* ToDoNewUpdCustomTextField.swift */,
+				7209C0E825BA9D5000144461 /* ToDoNewUpdTextExtension.swift */,
+				721E62CC25B953CA00B0324E /* SortMain.swift */,
+				72E2426F25BA0B5B00767532 /* SortButton.swift */,
+				7219B96025C061490016337E /* ToDoLists.swift */,
+				72E097D325C1DA9500A2237F /* IconButtonView.swift */,
+				7282337625C55597002E4F75 /* MediaButtons.swift */,
+			);
+			path = ToDo;
+			sourceTree = "<group>";
+		};
+		72D54A2F25B5FEB300F5B717 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				72BC052125FC907700313EDD /* Constant.swift */,
+				72D54A5425B60DD500F5B717 /* playSound.swift */,
+				72D54A3025B5FEC200F5B717 /* Helper.swift */,
+				7224EB5A25CD9276001E54DA /* AppNotification.swift */,
+				72BC053D25FCE37200313EDD /* StoreManager.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		72FEC20E25DD5A010096C7D9 /* Upgrade */ = {
+			isa = PBXGroup;
+			children = (
+				724C2E5525DAF6C100E6C5C1 /* UpgradeView.swift */,
+				720F22BB25DEDA0A00A46044 /* UpgradeDetailsView.swift */,
+				7211C76F25FE656C00E4EBB6 /* FullVersionRow.swift */,
+			);
+			path = Upgrade;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72D54A0525B5FC3B00F5B717 /* Ready ToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D54A1A25B5FC3E00F5B717 /* Build configuration list for PBXNativeTarget "Ready ToDo" */;
+			buildPhases = (
+				27330C5A4E9D2C8F06692C80 /* [CP] Check Pods Manifest.lock */,
+				D1CA800C44029376F7443F48 /* [CP] Prepare Artifacts */,
+				72D54A0225B5FC3B00F5B717 /* Sources */,
+				72D54A0325B5FC3B00F5B717 /* Frameworks */,
+				72D54A0425B5FC3B00F5B717 /* Resources */,
+				48AFB75EEDC7A9E27C8AC055 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ready ToDo";
+			productName = "My List";
+			productReference = 72D54A0625B5FC3B00F5B717 /* Ready ToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72D549FE25B5FC3B00F5B717 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					72D54A0525B5FC3B00F5B717 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 72D54A0125B5FC3B00F5B717 /* Build configuration list for PBXProject "Ready ToDo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72D549FD25B5FC3B00F5B717;
+			productRefGroup = 72D54A0725B5FC3B00F5B717 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72D54A0525B5FC3B00F5B717 /* Ready ToDo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72D54A0425B5FC3B00F5B717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EC2E6D25BD4207002F7569 /* SwooshAppear.mp3 in Resources */,
+				72D54A1125B5FC3D00F5B717 /* Preview Assets.xcassets in Resources */,
+				7262E20625CE83F900925F5D /* setReminder.mp3 in Resources */,
+				72EC2E6925BD411D002F7569 /* ButtonClickOff.mp3 in Resources */,
+				72D54A0E25B5FC3D00F5B717 /* Assets.xcassets in Resources */,
+				72EC2E6625BD4118002F7569 /* ButtonClickOn.mp3 in Resources */,
+				72EC2E7125BD4489002F7569 /* SwooshDisappear.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27330C5A4E9D2C8F06692C80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ready ToDo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48AFB75EEDC7A9E27C8AC055 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ready ToDo/Pods-Ready ToDo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ready ToDo/Pods-Ready ToDo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ready ToDo/Pods-Ready ToDo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1CA800C44029376F7443F48 /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ready ToDo/Pods-Ready ToDo-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ready ToDo/Pods-Ready ToDo-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ready ToDo/Pods-Ready ToDo-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72D54A0225B5FC3B00F5B717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BB6E9625C4AAA000ABF30D /* AudioRecorder.swift in Sources */,
+				7209C0E925BA9D5000144461 /* ToDoNewUpdTextExtension.swift in Sources */,
+				72BC052225FC907700313EDD /* Constant.swift in Sources */,
+				7282336225C53B95002E4F75 /* RecordingList.swift in Sources */,
+				7282337725C55597002E4F75 /* MediaButtons.swift in Sources */,
+				720F22BC25DEDA0A00A46044 /* UpgradeDetailsView.swift in Sources */,
+				7247693625CF260400BC8C20 /* LargeBannerAd.swift in Sources */,
+				72D54A1325B5FC3D00F5B717 /* Persistence.swift in Sources */,
+				72E5C20525BF4933006653CF /* SettingsColors.swift in Sources */,
+				72BB6E9025C498AE00ABF30D /* VoiceRecorderView.swift in Sources */,
+				7282336625C53FD6002E4F75 /* Extensions.swift in Sources */,
+				72D54A3125B5FEC200F5B717 /* Helper.swift in Sources */,
+				72D54A3E25B5FFB600F5B717 /* SettingsLabel.swift in Sources */,
+				72D54A3B25B5FFA300F5B717 /* SettingsView.swift in Sources */,
+				7282337225C547CB002E4F75 /* AudioPlayer.swift in Sources */,
+				7219B96125C061490016337E /* ToDoLists.swift in Sources */,
+				7252874C25BD7CB000A1729E /* ToDoNewUpdCustomTextField.swift in Sources */,
+				72E2427025BA0B5B00767532 /* SortButton.swift in Sources */,
+				7282336C25C5427B002E4F75 /* RecorderHelper.swift in Sources */,
+				7211C77025FE656C00E4EBB6 /* FullVersionRow.swift in Sources */,
+				721E62D025B95E2F00B0324E /* ToDoMaster.swift in Sources */,
+				721E62CD25B953CA00B0324E /* SortMain.swift in Sources */,
+				7224EB5B25CD9276001E54DA /* AppNotification.swift in Sources */,
+				72D54A1625B5FC3E00F5B717 /* My_List.xcdatamodeld in Sources */,
+				72B9644A25B6187A0094B35D /* ToDoRow.swift in Sources */,
+				72D54A4C25B6022E00F5B717 /* OnboardingCard.swift in Sources */,
+				72D54A0C25B5FC3B00F5B717 /* ToDo.swift in Sources */,
+				7282336925C540CE002E4F75 /* RecordingDataModel.swift in Sources */,
+				72D54A0A25B5FC3B00F5B717 /* My_ListApp.swift in Sources */,
+				72F869A625CACF200063C7FD /* SplashView.swift in Sources */,
+				7242168625BCAFF300F51CB6 /* SettingsNavigationLinkLabel.swift in Sources */,
+				72EFBE4C25CFAE63004BA6D9 /* BannerAd.swift in Sources */,
+				72D54A4125B5FFC900F5B717 /* SettingsRow.swift in Sources */,
+				72D54A4425B5FFE400F5B717 /* SettingsToggleRow.swift in Sources */,
+				72D54A5525B60DD500F5B717 /* playSound.swift in Sources */,
+				72789CA825B6E68000C8334D /* ToDoNewUpd.swift in Sources */,
+				72D54A4925B6021000F5B717 /* OnBoardingView.swift in Sources */,
+				72BC053E25FCE37200313EDD /* StoreManager.swift in Sources */,
+				72E097D425C1DA9500A2237F /* IconButtonView.swift in Sources */,
+				724C2E5625DAF6C100E6C5C1 /* UpgradeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72D54A1825B5FC3E00F5B717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72D54A1925B5FC3E00F5B717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72D54A1B25B5FC3E00F5B717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A3A9D1924C4330E748D37C /* Pods-Ready ToDo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"Ready ToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = W4SYF4F5TM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ready ToDo/App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-hdnsameera.Ready-ToDo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		72D54A1C25B5FC3E00F5B717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B111AD719798755AE8CBB47 /* Pods-Ready ToDo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"Ready ToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = W4SYF4F5TM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ready ToDo/App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-hdnsameera.Ready-ToDo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72D54A0125B5FC3B00F5B717 /* Build configuration list for PBXProject "Ready ToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D54A1825B5FC3E00F5B717 /* Debug */,
+				72D54A1925B5FC3E00F5B717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D54A1A25B5FC3E00F5B717 /* Build configuration list for PBXNativeTarget "Ready ToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D54A1B25B5FC3E00F5B717 /* Debug */,
+				72D54A1C25B5FC3E00F5B717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72D54A1425B5FC3E00F5B717 /* My_List.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72D54A1525B5FC3E00F5B717 /* My_List.xcdatamodel */,
+			);
+			currentVersion = 72D54A1525B5FC3E00F5B717 /* My_List.xcdatamodel */;
+			path = My_List.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72D549FE25B5FC3B00F5B717 /* Project object */;
+}
